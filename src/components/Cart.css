@@ -1,0 +1,91 @@
+.cart-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f7f7f7;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-container h2 {
+  color: #d1001c;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  border-bottom: 2px solid #d1001c;
+  padding-bottom: 10px;
+}
+
+.cart-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-left: 5px solid #d1001c;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.cart-item h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.cart-item p {
+  color: #666;
+  margin: 5px 0 15px;
+  font-size: 16px;
+}
+
+.cart-item button {
+  background-color: #d1001c;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: #a90015;
+}
+
+.total-price {
+  margin-top: 30px;
+  font-size: 22px;
+  text-align: right;
+  color: #222;
+  font-weight: bold;
+  border-top: 2px solid #ccc;
+  padding-top: 15px;
+}
+
+.whatsapp-button {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0;
+  background-color: #25D366;
+  color: white;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5b;
+  transform: translateY(-2px);
+}

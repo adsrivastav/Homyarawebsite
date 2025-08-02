@@ -1,0 +1,55 @@
+.about-page {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-page h2 {
+  color: #b30000; /* red headline */
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.about-page .intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.about-section {
+  background-color: #fff;
+  border-left: 5px solid #b30000;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-section h3 {
+  color: #222;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.about-section ul li {
+  margin: 6px 0;
+  color: #333;
+}
+
+.highlight-quote {
+  background-color: #b30000;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
